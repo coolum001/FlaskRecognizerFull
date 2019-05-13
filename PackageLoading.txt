@@ -1,0 +1,1336 @@
+
+(root36) C:\Users\donrc>activate flaskenv
+
+(flaskenv) C:\Users\donrc>conda list fastai
+# packages in environment at D:\Anaconda3\envs\flaskenv:
+#
+# Name                    Version                   Build  Channel
+
+(flaskenv) C:\Users\donrc>conda search fastai
+Loading channels: done
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - fastai
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/win-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/free/win-64
+  - https://repo.anaconda.com/pkgs/free/noarch
+  - https://repo.anaconda.com/pkgs/r/win-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/pro/win-64
+  - https://repo.anaconda.com/pkgs/pro/noarch
+  - https://repo.anaconda.com/pkgs/msys2/win-64
+  - https://repo.anaconda.com/pkgs/msys2/noarch
+  - https://conda.anaconda.org/conda-forge/win-64
+  - https://conda.anaconda.org/conda-forge/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(flaskenv) C:\Users\donrc>conda search fast-ai
+Loading channels: done
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - fast-ai
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/win-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/free/win-64
+  - https://repo.anaconda.com/pkgs/free/noarch
+  - https://repo.anaconda.com/pkgs/r/win-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/pro/win-64
+  - https://repo.anaconda.com/pkgs/pro/noarch
+  - https://repo.anaconda.com/pkgs/msys2/win-64
+  - https://repo.anaconda.com/pkgs/msys2/noarch
+  - https://conda.anaconda.org/conda-forge/win-64
+  - https://conda.anaconda.org/conda-forge/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(flaskenv) C:\Users\donrc>conda search -c fastai fastai
+Loading channels: done
+# Name                  Version           Build  Channel
+fastai                    1.0.9            py_1  fastai
+fastai                   1.0.10            py_1  fastai
+fastai                   1.0.11            py_1  fastai
+fastai                   1.0.12            py_1  fastai
+fastai                   1.0.13            py_1  fastai
+fastai                   1.0.14            py_1  fastai
+fastai                   1.0.15            py_1  fastai
+fastai                   1.0.16            py_1  fastai
+fastai                   1.0.17            py_1  fastai
+fastai                   1.0.18            py_1  fastai
+fastai                   1.0.19            py_1  fastai
+fastai                   1.0.20            py_1  fastai
+fastai                   1.0.21            py_1  fastai
+fastai                   1.0.22            py_1  fastai
+fastai                   1.0.24            py_1  fastai
+fastai                   1.0.25            py_1  fastai
+fastai                   1.0.26            py_1  fastai
+fastai                   1.0.27            py_1  fastai
+fastai                   1.0.28            py_1  fastai
+fastai                   1.0.29            py_1  fastai
+fastai                   1.0.30            py_1  fastai
+fastai                   1.0.31            py_1  fastai
+fastai                   1.0.32            py_1  fastai
+fastai                   1.0.33            py_1  fastai
+fastai                   1.0.34            py_1  fastai
+fastai                   1.0.35            py_1  fastai
+fastai                   1.0.36            py_1  fastai
+fastai                   1.0.37            py_1  fastai
+fastai                   1.0.38            py_1  fastai
+fastai                   1.0.39               1  fastai
+fastai                   1.0.40               1  fastai
+fastai                   1.0.41               1  fastai
+fastai                   1.0.42               1  fastai
+fastai             1.0.43.post1               1  fastai
+fastai                   1.0.44               1  fastai
+fastai                   1.0.46               1  fastai
+fastai                   1.0.47               1  fastai
+fastai             1.0.47.post1               1  fastai
+fastai                   1.0.48               1  fastai
+fastai                   1.0.49               1  fastai
+fastai                   1.0.50               1  fastai
+fastai             1.0.50.post1               1  fastai
+fastai                   1.0.51               1  fastai
+fastai                   1.0.52               1  fastai
+
+(flaskenv) C:\Users\donrc>d:
+
+(flaskenv) D:\>cd VSCODEProjects
+
+(flaskenv) D:\VSCODEProjects>cd FlaskRecognizerFull
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda install --dry-run --override-channels -c fastai fastai
+Solving environment: failed
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - fastai
+  - bottleneck
+  - fastai
+  - pandas
+  - fastai
+  - beautifulsoup4
+  - fastai
+  - matplotlib
+  - fastai
+  - numpy[version='>=1.15']
+  - fastai
+  - requests
+  - fastai
+  - pyyaml
+  - fastai
+  - numexpr
+  - fastai
+  - spacy[version='>=2.0.18']
+  - cymem[version='>=2.0.0,<2.1.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - plac[version='>=0.9.6,<1.0.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - wrapt[version='>=1.10.0,<1.11.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - murmurhash[version='>=0.28.0,<1.1.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - msgpack-numpy[version='<0.4.4.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - tqdm[version='>=4.10.0,<5.0.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - six[version='>=1.10.0,<2.0.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - msgpack-python[version='>=0.5.6,<1.0.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - dill[version='>=0.2.7,<0.3.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - python[version='>=2.7,<2.8.0a0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - cytoolz[version='>=0.9.0,<0.10']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - pathlib[version='>=1.0.0,<2.0.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - thinc[version='>=6.12.0,<6.13.0']
+  - preshed[version='>=2.0.1,<3.0.0']
+  - fastai
+  - spacy[version='>=2.0.18']
+  - ujson[version='>=1.35']
+  - fastai
+  - pytorch[version='>=1.0.0']
+  - fastai
+  - typing
+  - fastai
+  - packaging
+  - fastai
+  - scipy
+  - fastai
+  - torchvision
+  - fastai
+  - pillow
+  - fastai
+  - ipython
+  - fastai
+  - nbformat
+  - fastai
+  - jupyter
+  - fastai
+  - traitlets
+  - fastai
+  - nbconvert
+  - fastai
+  - notebook[version='>=5.7.0']
+  - fastai
+  - nb_conda
+  - fastai
+  - jupyter_client[version='>=5.2.3']
+
+Current channels:
+
+  - https://conda.anaconda.org/fastai/win-64
+  - https://conda.anaconda.org/fastai/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda install --dry-run  -c fastai fastai
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - fastai
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    murmurhash-1.0.2           |   py36h33f27b4_0          27 KB  defaults
+    six-1.12.0                 |           py36_0          22 KB  defaults
+    toolz-0.9.0                |           py36_0          92 KB  defaults
+    libtiff-4.0.10             |       hb898794_2         1.1 MB  defaults
+    pillow-6.0.0               |   py36hdc69c19_0         699 KB  defaults
+    python-dateutil-2.8.0      |           py36_0         282 KB  defaults
+    numpy-base-1.15.4          |   py36h8128ebf_0         3.9 MB  defaults
+    pyreadline-2.1             |           py36_1         141 KB  defaults
+    pyqt-5.9.2                 |   py36h6538335_2         4.2 MB  defaults
+    asn1crypto-0.24.0          |           py36_0         155 KB  defaults
+    pysocks-1.6.8              |           py36_0          23 KB  defaults
+    msgpack-numpy-0.4.3.2      |           py36_0          14 KB  defaults
+    thinc-6.12.0               |   py36hb854c30_0         1.4 MB  defaults
+    cryptography-2.6.1         |   py36h7a1dbc1_0         563 KB  defaults
+    cffi-1.12.3                |   py36h7a1dbc1_0         225 KB  defaults
+    dill-0.2.9                 |           py36_0         139 KB  defaults
+    chardet-3.0.4              |           py36_1         210 KB  defaults
+    requests-2.21.0            |           py36_0          85 KB  defaults
+    cymem-2.0.2                |   py36h74a9793_0          35 KB  defaults
+    cytoolz-0.9.0.1            |   py36hfa6e2cd_1         325 KB  defaults
+    fastai-1.0.34              |             py_1         110 KB  fastai
+    preshed-2.0.1              |   py36h33f27b4_0          70 KB  defaults
+    scipy-1.1.0                |   py36h4f6bf74_1        13.6 MB  defaults
+    wrapt-1.10.11              |   py36hfa6e2cd_2          44 KB  defaults
+    idna-2.8                   |           py36_0         134 KB  defaults
+    pandas-0.24.2              |   py36ha925a31_0         9.6 MB  defaults
+    intel-openmp-2019.3        |              203         1.7 MB  defaults
+    pyopenssl-19.0.0           |           py36_0          82 KB  defaults
+    cycler-0.10.0              |   py36h009560c_0          13 KB  defaults
+    mkl_fft-1.0.6              |   py36hdbbee80_0         120 KB  defaults
+    tornado-6.0.2              |   py36he774522_0         645 KB  defaults
+    sip-4.19.8                 |   py36h6538335_0         282 KB  defaults
+    win_inet_pton-1.1.0        |           py36_0           9 KB  defaults
+    mkl_random-1.0.1           |   py36h77b88f5_1         268 KB  defaults
+    numpy-1.15.4               |   py36ha559c80_0          36 KB  defaults
+    ujson-1.35                 |   py36hfa6e2cd_0          26 KB  defaults
+    regex-2018.08.29           |   py36hfa6e2cd_0         331 KB  defaults
+    pytz-2019.1                |             py_0         236 KB  defaults
+    pyyaml-5.1                 |   py36he774522_0         162 KB  defaults
+    msgpack-python-0.6.1       |   py36h74a9793_1          85 KB  defaults
+    dataclasses-0.6            |             py_0          19 KB  fastai
+    fastprogress-0.1.21        |             py_0          13 KB  fastai
+    urllib3-1.24.2             |           py36_0         153 KB  defaults
+    pyparsing-2.4.0            |             py_0          58 KB  defaults
+    plac-0.9.6                 |           py36_0          36 KB  defaults
+    pycparser-2.19             |           py36_0         174 KB  defaults
+    numexpr-2.6.8              |   py36h9ef55f4_0         128 KB  defaults
+    kiwisolver-1.1.0           |   py36ha925a31_0          59 KB  defaults
+    spacy-2.0.16               |   py36hcce6980_0        47.2 MB  defaults
+    openssl-1.1.1b             |       he774522_1         5.7 MB  defaults
+    olefile-0.46               |           py36_0          49 KB  defaults
+    libpng-1.6.37              |       h2a8f88b_0         598 KB  defaults
+    typing-3.6.4               |           py36_0          45 KB  defaults
+    tqdm-4.31.1                |           py36_1          87 KB  defaults
+    bottleneck-1.2.1           |   py36h452e1ab_1         113 KB  defaults
+    matplotlib-3.0.3           |   py36hc8f65d3_0         6.6 MB  defaults
+    ------------------------------------------------------------
+                                           Total:       102.0 MB
+
+The following NEW packages will be INSTALLED:
+
+    asn1crypto:      0.24.0-py36_0             defaults
+    blas:            1.0-mkl                   defaults
+    bottleneck:      1.2.1-py36h452e1ab_1      defaults
+    ca-certificates: 2019.1.23-0               defaults
+    cffi:            1.12.3-py36h7a1dbc1_0     defaults
+    chardet:         3.0.4-py36_1              defaults
+    cryptography:    2.6.1-py36h7a1dbc1_0      defaults
+    cycler:          0.10.0-py36h009560c_0     defaults
+    cymem:           2.0.2-py36h74a9793_0      defaults
+    cytoolz:         0.9.0.1-py36hfa6e2cd_1    defaults
+    dataclasses:     0.6-py_0                  fastai
+    dill:            0.2.9-py36_0              defaults
+    fastai:          1.0.34-py_1               fastai
+    fastprogress:    0.1.21-py_0               fastai
+    freetype:        2.9.1-ha9979f8_1          defaults
+    icc_rt:          2019.0.0-h0cc432a_1       defaults
+    icu:             58.2-ha66f8fd_1           defaults
+    idna:            2.8-py36_0                defaults
+    intel-openmp:    2019.3-203                defaults
+    jpeg:            9b-hb83a4c4_2             defaults
+    kiwisolver:      1.1.0-py36ha925a31_0      defaults
+    libpng:          1.6.37-h2a8f88b_0         defaults
+    libtiff:         4.0.10-hb898794_2         defaults
+    matplotlib:      3.0.3-py36hc8f65d3_0      defaults
+    mkl:             2018.0.3-1                defaults
+    mkl_fft:         1.0.6-py36hdbbee80_0      defaults
+    mkl_random:      1.0.1-py36h77b88f5_1      defaults
+    msgpack-numpy:   0.4.3.2-py36_0            defaults
+    msgpack-python:  0.6.1-py36h74a9793_1      defaults
+    murmurhash:      1.0.2-py36h33f27b4_0      defaults
+    numexpr:         2.6.8-py36h9ef55f4_0      defaults
+    numpy:           1.15.4-py36ha559c80_0     defaults
+    numpy-base:      1.15.4-py36h8128ebf_0     defaults
+    olefile:         0.46-py36_0               defaults
+    openssl:         1.1.1b-he774522_1         defaults
+    pandas:          0.24.2-py36ha925a31_0     defaults
+    pillow:          6.0.0-py36hdc69c19_0      defaults
+    plac:            0.9.6-py36_0              defaults
+    preshed:         2.0.1-py36h33f27b4_0      defaults
+    pycparser:       2.19-py36_0               defaults
+    pyopenssl:       19.0.0-py36_0             defaults
+    pyparsing:       2.4.0-py_0                defaults
+    pyqt:            5.9.2-py36h6538335_2      defaults
+    pyreadline:      2.1-py36_1                defaults
+    pysocks:         1.6.8-py36_0              defaults
+    python-dateutil: 2.8.0-py36_0              defaults
+    pytz:            2019.1-py_0               defaults
+    pyyaml:          5.1-py36he774522_0        defaults
+    qt:              5.9.7-vc14h73c81de_0      defaults
+    regex:           2018.08.29-py36hfa6e2cd_0 defaults
+    requests:        2.21.0-py36_0             defaults
+    scipy:           1.1.0-py36h4f6bf74_1      defaults
+    sip:             4.19.8-py36h6538335_0     defaults
+    six:             1.12.0-py36_0             defaults
+    spacy:           2.0.16-py36hcce6980_0     defaults
+    thinc:           6.12.0-py36hb854c30_0     defaults
+    tk:              8.6.8-hfa6e2cd_0          defaults
+    toolz:           0.9.0-py36_0              defaults
+    tornado:         6.0.2-py36he774522_0      defaults
+    tqdm:            4.31.1-py36_1             defaults
+    typing:          3.6.4-py36_0              defaults
+    ujson:           1.35-py36hfa6e2cd_0       defaults
+    urllib3:         1.24.2-py36_0             defaults
+    win_inet_pton:   1.1.0-py36_0              defaults
+    wrapt:           1.10.11-py36hfa6e2cd_2    defaults
+    xz:              5.2.4-h2fa13f4_4          defaults
+    yaml:            0.1.7-hc54c509_2          defaults
+    zlib:            1.2.11-h62dcd97_3         defaults
+    zstd:            1.3.7-h508b16e_0          defaults
+
+
+DryRunExit: Dry run exiting
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda install   -c fastai fastai
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - fastai
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    requests-2.21.0            |           py36_0          85 KB  defaults
+    mkl_random-1.0.1           |   py36h77b88f5_1         268 KB  defaults
+    win_inet_pton-1.1.0        |           py36_0           9 KB  defaults
+    kiwisolver-1.1.0           |   py36ha925a31_0          59 KB  defaults
+    wrapt-1.10.11              |   py36hfa6e2cd_2          44 KB  defaults
+    numpy-base-1.15.4          |   py36h8128ebf_0         3.9 MB  defaults
+    chardet-3.0.4              |           py36_1         210 KB  defaults
+    pysocks-1.6.8              |           py36_0          23 KB  defaults
+    fastprogress-0.1.21        |             py_0          13 KB  fastai
+    regex-2018.08.29           |   py36hfa6e2cd_0         331 KB  defaults
+    pyreadline-2.1             |           py36_1         141 KB  defaults
+    pyopenssl-19.0.0           |           py36_0          82 KB  defaults
+    typing-3.6.4               |           py36_0          45 KB  defaults
+    cffi-1.12.3                |   py36h7a1dbc1_0         225 KB  defaults
+    cryptography-2.6.1         |   py36h7a1dbc1_0         563 KB  defaults
+    pyyaml-5.1                 |   py36he774522_0         162 KB  defaults
+    thinc-6.12.0               |   py36hb854c30_0         1.4 MB  defaults
+    cymem-2.0.2                |   py36h74a9793_0          35 KB  defaults
+    intel-openmp-2019.3        |              203         1.7 MB  defaults
+    dataclasses-0.6            |             py_0          19 KB  fastai
+    idna-2.8                   |           py36_0         134 KB  defaults
+    msgpack-python-0.6.1       |   py36h74a9793_1          85 KB  defaults
+    toolz-0.9.0                |           py36_0          92 KB  defaults
+    pyparsing-2.4.0            |             py_0          58 KB  defaults
+    tornado-6.0.2              |   py36he774522_0         645 KB  defaults
+    pandas-0.24.2              |   py36ha925a31_0         9.6 MB  defaults
+    scipy-1.1.0                |   py36h4f6bf74_1        13.6 MB  defaults
+    spacy-2.0.16               |   py36hcce6980_0        47.2 MB  defaults
+    asn1crypto-0.24.0          |           py36_0         155 KB  defaults
+    pytz-2019.1                |             py_0         236 KB  defaults
+    six-1.12.0                 |           py36_0          22 KB  defaults
+    urllib3-1.24.2             |           py36_0         153 KB  defaults
+    cytoolz-0.9.0.1            |   py36hfa6e2cd_1         325 KB  defaults
+    pillow-6.0.0               |   py36hdc69c19_0         699 KB  defaults
+    bottleneck-1.2.1           |   py36h452e1ab_1         113 KB  defaults
+    fastai-1.0.34              |             py_1         110 KB  fastai
+    dill-0.2.9                 |           py36_0         139 KB  defaults
+    plac-0.9.6                 |           py36_0          36 KB  defaults
+    python-dateutil-2.8.0      |           py36_0         282 KB  defaults
+    msgpack-numpy-0.4.3.2      |           py36_0          14 KB  defaults
+    libpng-1.6.37              |       h2a8f88b_0         598 KB  defaults
+    sip-4.19.8                 |   py36h6538335_0         282 KB  defaults
+    murmurhash-1.0.2           |   py36h33f27b4_0          27 KB  defaults
+    ujson-1.35                 |   py36hfa6e2cd_0          26 KB  defaults
+    openssl-1.1.1b             |       he774522_1         5.7 MB  defaults
+    pyqt-5.9.2                 |   py36h6538335_2         4.2 MB  defaults
+    libtiff-4.0.10             |       hb898794_2         1.1 MB  defaults
+    numpy-1.15.4               |   py36ha559c80_0          36 KB  defaults
+    tqdm-4.31.1                |           py36_1          87 KB  defaults
+    olefile-0.46               |           py36_0          49 KB  defaults
+    preshed-2.0.1              |   py36h33f27b4_0          70 KB  defaults
+    pycparser-2.19             |           py36_0         174 KB  defaults
+    mkl_fft-1.0.6              |   py36hdbbee80_0         120 KB  defaults
+    numexpr-2.6.8              |   py36h9ef55f4_0         128 KB  defaults
+    matplotlib-3.0.3           |   py36hc8f65d3_0         6.6 MB  defaults
+    cycler-0.10.0              |   py36h009560c_0          13 KB  defaults
+    ------------------------------------------------------------
+                                           Total:       102.0 MB
+
+The following NEW packages will be INSTALLED:
+
+    asn1crypto:      0.24.0-py36_0             defaults
+    blas:            1.0-mkl                   defaults
+    bottleneck:      1.2.1-py36h452e1ab_1      defaults
+    ca-certificates: 2019.1.23-0               defaults
+    cffi:            1.12.3-py36h7a1dbc1_0     defaults
+    chardet:         3.0.4-py36_1              defaults
+    cryptography:    2.6.1-py36h7a1dbc1_0      defaults
+    cycler:          0.10.0-py36h009560c_0     defaults
+    cymem:           2.0.2-py36h74a9793_0      defaults
+    cytoolz:         0.9.0.1-py36hfa6e2cd_1    defaults
+    dataclasses:     0.6-py_0                  fastai
+    dill:            0.2.9-py36_0              defaults
+    fastai:          1.0.34-py_1               fastai
+    fastprogress:    0.1.21-py_0               fastai
+    freetype:        2.9.1-ha9979f8_1          defaults
+    icc_rt:          2019.0.0-h0cc432a_1       defaults
+    icu:             58.2-ha66f8fd_1           defaults
+    idna:            2.8-py36_0                defaults
+    intel-openmp:    2019.3-203                defaults
+    jpeg:            9b-hb83a4c4_2             defaults
+    kiwisolver:      1.1.0-py36ha925a31_0      defaults
+    libpng:          1.6.37-h2a8f88b_0         defaults
+    libtiff:         4.0.10-hb898794_2         defaults
+    matplotlib:      3.0.3-py36hc8f65d3_0      defaults
+    mkl:             2018.0.3-1                defaults
+    mkl_fft:         1.0.6-py36hdbbee80_0      defaults
+    mkl_random:      1.0.1-py36h77b88f5_1      defaults
+    msgpack-numpy:   0.4.3.2-py36_0            defaults
+    msgpack-python:  0.6.1-py36h74a9793_1      defaults
+    murmurhash:      1.0.2-py36h33f27b4_0      defaults
+    numexpr:         2.6.8-py36h9ef55f4_0      defaults
+    numpy:           1.15.4-py36ha559c80_0     defaults
+    numpy-base:      1.15.4-py36h8128ebf_0     defaults
+    olefile:         0.46-py36_0               defaults
+    openssl:         1.1.1b-he774522_1         defaults
+    pandas:          0.24.2-py36ha925a31_0     defaults
+    pillow:          6.0.0-py36hdc69c19_0      defaults
+    plac:            0.9.6-py36_0              defaults
+    preshed:         2.0.1-py36h33f27b4_0      defaults
+    pycparser:       2.19-py36_0               defaults
+    pyopenssl:       19.0.0-py36_0             defaults
+    pyparsing:       2.4.0-py_0                defaults
+    pyqt:            5.9.2-py36h6538335_2      defaults
+    pyreadline:      2.1-py36_1                defaults
+    pysocks:         1.6.8-py36_0              defaults
+    python-dateutil: 2.8.0-py36_0              defaults
+    pytz:            2019.1-py_0               defaults
+    pyyaml:          5.1-py36he774522_0        defaults
+    qt:              5.9.7-vc14h73c81de_0      defaults
+    regex:           2018.08.29-py36hfa6e2cd_0 defaults
+    requests:        2.21.0-py36_0             defaults
+    scipy:           1.1.0-py36h4f6bf74_1      defaults
+    sip:             4.19.8-py36h6538335_0     defaults
+    six:             1.12.0-py36_0             defaults
+    spacy:           2.0.16-py36hcce6980_0     defaults
+    thinc:           6.12.0-py36hb854c30_0     defaults
+    tk:              8.6.8-hfa6e2cd_0          defaults
+    toolz:           0.9.0-py36_0              defaults
+    tornado:         6.0.2-py36he774522_0      defaults
+    tqdm:            4.31.1-py36_1             defaults
+    typing:          3.6.4-py36_0              defaults
+    ujson:           1.35-py36hfa6e2cd_0       defaults
+    urllib3:         1.24.2-py36_0             defaults
+    win_inet_pton:   1.1.0-py36_0              defaults
+    wrapt:           1.10.11-py36hfa6e2cd_2    defaults
+    xz:              5.2.4-h2fa13f4_4          defaults
+    yaml:            0.1.7-hc54c509_2          defaults
+    zlib:            1.2.11-h62dcd97_3         defaults
+    zstd:            1.3.7-h508b16e_0          defaults
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+requests-2.21.0      | 85 KB     | ############################################################################ | 100%
+mkl_random-1.0.1     | 268 KB    | ############################################################################ | 100%
+win_inet_pton-1.1.0  | 9 KB      | ############################################################################ | 100%
+kiwisolver-1.1.0     | 59 KB     | ############################################################################ | 100%
+wrapt-1.10.11        | 44 KB     | ############################################################################ | 100%
+numpy-base-1.15.4    | 3.9 MB    | ############################################################################ | 100%
+chardet-3.0.4        | 210 KB    | ############################################################################ | 100%
+pysocks-1.6.8        | 23 KB     | ############################################################################ | 100%
+fastprogress-0.1.21  | 13 KB     | ############################################################################ | 100%
+regex-2018.08.29     | 331 KB    | ############################################################################ | 100%
+pyreadline-2.1       | 141 KB    | ############################################################################ | 100%
+pyopenssl-19.0.0     | 82 KB     | ############################################################################ | 100%
+typing-3.6.4         | 45 KB     | ############################################################################ | 100%
+cffi-1.12.3          | 225 KB    | ############################################################################ | 100%
+cryptography-2.6.1   | 563 KB    | ############################################################################ | 100%
+pyyaml-5.1           | 162 KB    | ############################################################################ | 100%
+thinc-6.12.0         | 1.4 MB    | ############################################################################ | 100%
+cymem-2.0.2          | 35 KB     | ############################################################################ | 100%
+intel-openmp-2019.3  | 1.7 MB    | ############################################################################ | 100%
+dataclasses-0.6      | 19 KB     | ############################################################################ | 100%
+idna-2.8             | 134 KB    | ############################################################################ | 100%
+msgpack-python-0.6.1 | 85 KB     | ############################################################################ | 100%
+toolz-0.9.0          | 92 KB     | ############################################################################ | 100%
+pyparsing-2.4.0      | 58 KB     | ############################################################################ | 100%
+tornado-6.0.2        | 645 KB    | ############################################################################ | 100%
+pandas-0.24.2        | 9.6 MB    | ############################################################################ | 100%
+scipy-1.1.0          | 13.6 MB   | ############################################################################ | 100%
+spacy-2.0.16         | 47.2 MB   | ############################################################################ | 100%
+asn1crypto-0.24.0    | 155 KB    | ############################################################################ | 100%
+pytz-2019.1          | 236 KB    | ############################################################################ | 100%
+six-1.12.0           | 22 KB     | ############################################################################ | 100%
+urllib3-1.24.2       | 153 KB    | ############################################################################ | 100%
+cytoolz-0.9.0.1      | 325 KB    | ############################################################################ | 100%
+pillow-6.0.0         | 699 KB    | ############################################################################ | 100%
+bottleneck-1.2.1     | 113 KB    | ############################################################################ | 100%
+fastai-1.0.34        | 110 KB    | ############################################################################ | 100%
+dill-0.2.9           | 139 KB    | ############################################################################ | 100%
+plac-0.9.6           | 36 KB     | ############################################################################ | 100%
+python-dateutil-2.8. | 282 KB    | ############################################################################ | 100%
+msgpack-numpy-0.4.3. | 14 KB     | ############################################################################ | 100%
+libpng-1.6.37        | 598 KB    | ############################################################################ | 100%
+sip-4.19.8           | 282 KB    | ############################################################################ | 100%
+murmurhash-1.0.2     | 27 KB     | ############################################################################ | 100%
+ujson-1.35           | 26 KB     | ############################################################################ | 100%
+openssl-1.1.1b       | 5.7 MB    | ############################################################################ | 100%
+pyqt-5.9.2           | 4.2 MB    | ############################################################################ | 100%
+libtiff-4.0.10       | 1.1 MB    | ############################################################################ | 100%
+numpy-1.15.4         | 36 KB     | ############################################################################ | 100%
+tqdm-4.31.1          | 87 KB     | ############################################################################ | 100%
+olefile-0.46         | 49 KB     | ############################################################################ | 100%
+preshed-2.0.1        | 70 KB     | ############################################################################ | 100%
+pycparser-2.19       | 174 KB    | ############################################################################ | 100%
+mkl_fft-1.0.6        | 120 KB    | ############################################################################ | 100%
+numexpr-2.6.8        | 128 KB    | ############################################################################ | 100%
+matplotlib-3.0.3     | 6.6 MB    | ############################################################################ | 100%
+cycler-0.10.0        | 13 KB     | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda list torch
+# packages in environment at D:\Anaconda3\envs\flaskenv:
+#
+# Name                    Version                   Build  Channel
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda search torch
+Loading channels: done
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - torch
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/win-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/free/win-64
+  - https://repo.anaconda.com/pkgs/free/noarch
+  - https://repo.anaconda.com/pkgs/r/win-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/pro/win-64
+  - https://repo.anaconda.com/pkgs/pro/noarch
+  - https://repo.anaconda.com/pkgs/msys2/win-64
+  - https://repo.anaconda.com/pkgs/msys2/noarch
+  - https://conda.anaconda.org/conda-forge/win-64
+  - https://conda.anaconda.org/conda-forge/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda search pytorch
+Loading channels: done
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - pytorch
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/win-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/free/win-64
+  - https://repo.anaconda.com/pkgs/free/noarch
+  - https://repo.anaconda.com/pkgs/r/win-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/pro/win-64
+  - https://repo.anaconda.com/pkgs/pro/noarch
+  - https://repo.anaconda.com/pkgs/msys2/win-64
+  - https://repo.anaconda.com/pkgs/msys2/noarch
+  - https://conda.anaconda.org/conda-forge/win-64
+  - https://conda.anaconda.org/conda-forge/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda search -c pytorch pytorch
+Loading channels: done
+# Name                  Version           Build  Channel
+pytorch                   0.4.0 py35_cuda80_cudnn7he774522_1  pytorch
+pytorch                   0.4.0 py35_cuda90_cudnn7he774522_1  pytorch
+pytorch                   0.4.0 py35_cuda91_cudnn7he774522_1  pytorch
+pytorch                   0.4.0 py36_cuda80_cudnn7he774522_1  pytorch
+pytorch                   0.4.0 py36_cuda90_cudnn7he774522_1  pytorch
+pytorch                   0.4.0 py36_cuda91_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py35_cuda80_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py35_cuda90_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py35_cuda92_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py36_cuda80_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py36_cuda90_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py36_cuda92_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py37_cuda80_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py37_cuda90_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py37_cuda92_cudnn7he774522_1  pytorch
+pytorch                   1.0.0 py3.5_cuda100_cudnn7_1  pytorch
+pytorch                   1.0.0 py3.5_cuda80_cudnn7_1  pytorch
+pytorch                   1.0.0 py3.5_cuda90_cudnn7_1  pytorch
+pytorch                   1.0.0 py3.6_cuda100_cudnn7_1  pytorch
+pytorch                   1.0.0 py3.6_cuda80_cudnn7_1  pytorch
+pytorch                   1.0.0 py3.6_cuda90_cudnn7_1  pytorch
+pytorch                   1.0.0 py3.7_cuda100_cudnn7_1  pytorch
+pytorch                   1.0.0 py3.7_cuda80_cudnn7_1  pytorch
+pytorch                   1.0.0 py3.7_cuda90_cudnn7_1  pytorch
+pytorch                   1.0.1 py3.5_cuda100_cudnn7_1  pytorch
+pytorch                   1.0.1 py3.5_cuda80_cudnn7_1  pytorch
+pytorch                   1.0.1 py3.5_cuda90_cudnn7_1  pytorch
+pytorch                   1.0.1 py3.6_cuda100_cudnn7_1  pytorch
+pytorch                   1.0.1 py3.6_cuda80_cudnn7_1  pytorch
+pytorch                   1.0.1 py3.6_cuda90_cudnn7_1  pytorch
+pytorch                   1.0.1 py3.7_cuda100_cudnn7_1  pytorch
+pytorch                   1.0.1 py3.7_cuda80_cudnn7_1  pytorch
+pytorch                   1.0.1 py3.7_cuda90_cudnn7_1  pytorch
+pytorch                   1.1.0 py3.5_cuda100_cudnn7_1  pytorch
+pytorch                   1.1.0 py3.5_cuda90_cudnn7_1  pytorch
+pytorch                   1.1.0 py3.6_cuda100_cudnn7_1  pytorch
+pytorch                   1.1.0 py3.6_cuda90_cudnn7_1  pytorch
+pytorch                   1.1.0 py3.7_cuda100_cudnn7_1  pytorch
+pytorch                   1.1.0 py3.7_cuda90_cudnn7_1  pytorch
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda search -c pytorch pytorch=*=py36*
+Loading channels: done
+# Name                  Version           Build  Channel
+pytorch                   0.4.0 py36_cuda80_cudnn7he774522_1  pytorch
+pytorch                   0.4.0 py36_cuda90_cudnn7he774522_1  pytorch
+pytorch                   0.4.0 py36_cuda91_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py36_cuda80_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py36_cuda90_cudnn7he774522_1  pytorch
+pytorch                   0.4.1 py36_cuda92_cudnn7he774522_1  pytorch
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda install --dry-run -c pytorch pytorch
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - pytorch
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ninja-1.9.0                |   py36h74a9793_0         263 KB  defaults
+    pytorch-1.1.0              |py3.6_cuda100_cudnn7_1       496.4 MB  pytorch
+    cudatoolkit-10.0.130       |                0       371.0 MB  defaults
+    ------------------------------------------------------------
+                                           Total:       867.7 MB
+
+The following NEW packages will be INSTALLED:
+
+    cudatoolkit: 10.0.130-0                   defaults
+    ninja:       1.9.0-py36h74a9793_0         defaults
+    pytorch:     1.1.0-py3.6_cuda100_cudnn7_1 pytorch
+
+
+DryRunExit: Dry run exiting
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda install --dry-run -c pytorch pytorch=*=py36*
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - pytorch[build=py36*]
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pytorch-0.4.1              |py36_cuda90_cudnn7he774522_1       590.4 MB  pytorch
+
+The following NEW packages will be INSTALLED:
+
+    pytorch: 0.4.1-py36_cuda90_cudnn7he774522_1 pytorch
+
+
+DryRunExit: Dry run exiting
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda install --dry-run -c pytorch pytorch
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - pytorch
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ninja-1.9.0                |   py36h74a9793_0         263 KB  defaults
+    cudatoolkit-10.0.130       |                0       371.0 MB  defaults
+    pytorch-1.1.0              |py3.6_cuda100_cudnn7_1       496.4 MB  pytorch
+    ------------------------------------------------------------
+                                           Total:       867.7 MB
+
+The following NEW packages will be INSTALLED:
+
+    cudatoolkit: 10.0.130-0                   defaults
+    ninja:       1.9.0-py36h74a9793_0         defaults
+    pytorch:     1.1.0-py3.6_cuda100_cudnn7_1 pytorch
+
+
+DryRunExit: Dry run exiting
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda install  -c pytorch pytorch
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - pytorch
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cudatoolkit-10.0.130       |                0       371.0 MB  defaults
+    ninja-1.9.0                |   py36h74a9793_0         263 KB  defaults
+    pytorch-1.1.0              |py3.6_cuda100_cudnn7_1       496.4 MB  pytorch
+    ------------------------------------------------------------
+                                           Total:       867.7 MB
+
+The following NEW packages will be INSTALLED:
+
+    cudatoolkit: 10.0.130-0                   defaults
+    ninja:       1.9.0-py36h74a9793_0         defaults
+    pytorch:     1.1.0-py3.6_cuda100_cudnn7_1 pytorch
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+cudatoolkit-10.0.130 | 371.0 MB  | ############################################################################ | 100%
+ninja-1.9.0          | 263 KB    | ############################################################################ | 100%
+pytorch-1.1.0        | 496.4 MB  | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda list pytorch
+# packages in environment at D:\Anaconda3\envs\flaskenv:
+#
+# Name                    Version                   Build  Channel
+pytorch                   1.1.0           py3.6_cuda100_cudnn7_1    pytorch
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda install --dry-run -c pytorch torchvision
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - torchvision
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    torchvision-0.2.2          |             py_3          44 KB  pytorch
+
+The following NEW packages will be INSTALLED:
+
+    torchvision: 0.2.2-py_3 pytorch
+
+
+DryRunExit: Dry run exiting
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda install  -c pytorch torchvision
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - torchvision
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    torchvision-0.2.2          |             py_3          44 KB  pytorch
+
+The following NEW packages will be INSTALLED:
+
+    torchvision: 0.2.2-py_3 pytorch
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+torchvision-0.2.2    | 44 KB     | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda list torchvision
+# packages in environment at D:\Anaconda3\envs\flaskenv:
+#
+# Name                    Version                   Build  Channel
+torchvision               0.2.2                      py_3    pytorch
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda list fastai*
+# packages in environment at D:\Anaconda3\envs\flaskenv:
+#
+# Name                    Version                   Build  Channel
+fastai                    1.0.34                     py_1    fastai
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda search fastai=1.0.52=*
+Loading channels: done
+
+PackagesNotFoundError: The following packages are not available from current channels:
+
+  - fastai==1.0.52[build=*]
+
+Current channels:
+
+  - https://repo.anaconda.com/pkgs/main/win-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/free/win-64
+  - https://repo.anaconda.com/pkgs/free/noarch
+  - https://repo.anaconda.com/pkgs/r/win-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/pro/win-64
+  - https://repo.anaconda.com/pkgs/pro/noarch
+  - https://repo.anaconda.com/pkgs/msys2/win-64
+  - https://repo.anaconda.com/pkgs/msys2/noarch
+  - https://conda.anaconda.org/conda-forge/win-64
+  - https://conda.anaconda.org/conda-forge/noarch
+
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+
+    https://anaconda.org
+
+and use the search bar at the top of the page.
+
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda search -c fastai fastai=1.0.52=*
+Loading channels: done
+# Name                  Version           Build  Channel
+fastai                   1.0.52               1  fastai
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda --help
+usage: conda [-h] [-V] command ...
+
+conda is a tool for managing and deploying applications, environments and packages.
+
+Options:
+
+positional arguments:
+  command
+    clean        Remove unused packages and caches.
+    config       Modify configuration values in .condarc. This is modeled
+                 after the git config command. Writes to the user .condarc
+                 file (C:\Users\donrc\.condarc) by default.
+    create       Create a new conda environment from a list of specified
+                 packages.
+    help         Displays a list of available conda commands and their help
+                 strings.
+    info         Display information about current conda install.
+    install      Installs a list of packages into a specified conda
+                 environment.
+    list         List linked packages in a conda environment.
+    package      Low-level conda package utility. (EXPERIMENTAL)
+    remove       Remove a list of packages from a specified conda environment.
+    uninstall    Alias for conda remove. See conda remove --help.
+    search       Search for packages and display associated information. The
+                 input is a MatchSpec, a query language for conda packages.
+                 See examples below.
+    update       Updates conda packages to the latest compatible version. This
+                 command accepts a list of package names and updates them to
+                 the latest versions that are compatible with all other
+                 packages in the environment. Conda attempts to install the
+                 newest versions of the requested packages. To accomplish
+                 this, it may update some packages that are already installed,
+                 or install additional packages. To prevent existing packages
+                 from updating, use the --no-update-deps option. This may
+                 force conda to install older versions of the requested
+                 packages, and it does not prevent additional dependency
+                 packages from being installed. If you wish to skip dependency
+                 checking altogether, use the '--force' option. This may
+                 result in an environment with incompatible packages, so this
+                 option must be used with great caution.
+    upgrade      Alias for conda update. See conda update --help.
+
+optional arguments:
+  -h, --help     Show this help message and exit.
+  -V, --version  Show the conda version number and exit.
+
+conda commands available from other packages:
+  build
+  convert
+  develop
+  env
+  index
+  inspect
+  metapackage
+  render
+  server
+  skeleton
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda update --help
+usage: conda update [-h] [-y] [--dry-run] [-f] [--file FILE] [--no-deps]
+                    [--only-deps] [-m] [-C] [--use-local] [--offline]
+                    [--no-pin] [-c CHANNEL] [--override-channels]
+                    [-n ENVIRONMENT | -p PATH] [-q] [--copy] [-k]
+                    [--update-dependencies] [--no-update-dependencies]
+                    [--channel-priority] [--no-channel-priority] [--clobber]
+                    [--show-channel-urls] [--no-show-channel-urls]
+                    [--download-only] [--json] [--debug] [--verbose] [--all]
+                    [package_spec [package_spec ...]]
+
+Updates conda packages to the latest compatible version.
+
+    This command accepts a list of package names and updates them to the latest
+    versions that are compatible with all other packages in the environment.
+
+    Conda attempts to install the newest versions of the requested packages. To
+    accomplish this, it may update some packages that are already installed, or
+    install additional packages. To prevent existing packages from updating,
+    use the --no-update-deps option. This may force conda to install older
+    versions of the requested packages, and it does not prevent additional
+    dependency packages from being installed.
+
+    If you wish to skip dependency checking altogether, use the '--force'
+    option. This may result in an environment with incompatible packages, so
+    this option must be used with great caution.
+
+Options:
+
+positional arguments:
+  package_spec          Packages to install or update in the conda
+                        environment.
+
+optional arguments:
+  -h, --help            Show this help message and exit.
+  -y, --yes             Do not ask for confirmation.
+  --dry-run             Only display what would have been done.
+  -f, --force           Force install (even when package already installed).
+  --file FILE           Read package versions from the given file. Repeated
+                        file specifications can be passed (e.g. --file=file1
+                        --file=file2).
+  --no-deps             Do not install, update, remove, or change
+                        dependencies. This WILL lead to broken environments
+                        and inconsistent behavior. Use at your own risk.
+  --only-deps           Only install dependencies.
+  -m, --mkdir           Create the environment directory if necessary.
+  -C, --use-index-cache
+                        Use cache of channel index files, even if it has
+                        expired.
+  --use-local           Use locally built packages.
+  --offline             Offline mode, don't connect to the Internet.
+  --no-pin              Ignore pinned file.
+  -c CHANNEL, --channel CHANNEL
+                        Additional channel to search for packages. These are
+                        URLs searched in the order they are given (including
+                        file:// for local directories). Then, the defaults or
+                        channels from .condarc are searched (unless
+                        --override-channels is given). You can use 'defaults'
+                        to get the default packages for conda, and 'system' to
+                        get the system packages, which also takes .condarc
+                        into account. You can also use any name and the
+                        .condarc channel_alias value will be prepended. The
+                        default channel_alias is http://conda.anaconda.org/.
+  --override-channels   Do not search default or .condarc channels. Requires
+                        --channel.
+  -n ENVIRONMENT, --name ENVIRONMENT
+                        Name of environment.
+  -p PATH, --prefix PATH
+                        Full path to environment prefix.
+  -q, --quiet           Do not display progress bar.
+  --copy                Install all packages using copies instead of hard- or
+                        soft-linking.
+  -k, --insecure        Allow conda to perform "insecure" SSL connections and
+                        transfers. Equivalent to setting 'ssl_verify' to
+                        'false'.
+  --update-dependencies, --update-deps
+                        Update dependencies. Overrides the value given by
+                        `conda config --show update_deps`.
+  --no-update-dependencies, --no-update-deps
+                        Don't update dependencies. Overrides the value given
+                        by `conda config --show update_deps`.
+  --channel-priority, --channel-pri, --chan-pri
+                        Channel priority takes precedence over package
+                        version. Overrides the value given by `conda config
+                        --show channel_priority`.
+  --no-channel-priority, --no-channel-pri, --no-chan-pri
+                        Package version takes precedence over channel
+                        priority. Overrides the value given by `conda config
+                        --show channel_priority`.
+  --clobber             Allow clobbering of overlapping file paths within
+                        packages, and suppress related warnings.
+  --show-channel-urls   Show channel urls. Overrides the value given by `conda
+                        config --show show_channel_urls`.
+  --no-show-channel-urls
+                        Don't show channel urls. Overrides the value given by
+                        `conda config --show show_channel_urls`.
+  --download-only       Solve an environment and ensure package caches are
+                        populated, but exit prior to unlinking and linking
+                        packages into the prefix.
+  --json                Report all output as json. Suitable for using conda
+                        programmatically.
+  --debug               Show debug output.
+  --verbose, -v         Use once for info, twice for debug, three times for
+                        trace.
+  --all                 Update all installed packages in the environment.
+
+Examples:
+
+    conda update -n myenv scipy
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda update --dry-run -c fastai fastai
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - fastai
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    spacy-2.0.18               |py36h6538335_1000        50.7 MB  fastai
+    fastai-1.0.52              |                1         165 KB  fastai
+    nvidia-ml-py3-7.352.0      |             py_0          22 KB  fastai
+    beautifulsoup4-4.7.1       |           py36_1         144 KB  defaults
+    soupsieve-1.8              |           py36_0         105 KB  defaults
+    regex-2018.01.10           |py36hfa6e2cd_1000         320 KB  fastai
+    packaging-19.0             |           py36_0          38 KB  defaults
+    ------------------------------------------------------------
+                                           Total:        51.5 MB
+
+The following NEW packages will be INSTALLED:
+
+    beautifulsoup4: 4.7.1-py36_1              defaults
+    nvidia-ml-py3:  7.352.0-py_0              fastai
+    packaging:      19.0-py36_0               defaults
+    soupsieve:      1.8-py36_0                defaults
+
+The following packages will be UPDATED:
+
+    fastai:         1.0.34-py_1               fastai   --> 1.0.52-1                     fastai
+    spacy:          2.0.16-py36hcce6980_0     defaults --> 2.0.18-py36h6538335_1000     fastai
+
+The following packages will be DOWNGRADED:
+
+    regex:          2018.08.29-py36hfa6e2cd_0 defaults --> 2018.01.10-py36hfa6e2cd_1000 fastai
+
+
+DryRunExit: Dry run exiting
+
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>conda update  -c fastai fastai
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.14
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: D:\Anaconda3\envs\flaskenv
+
+  added / updated specs:
+    - fastai
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    beautifulsoup4-4.7.1       |           py36_1         144 KB  defaults
+    fastai-1.0.52              |                1         165 KB  fastai
+    soupsieve-1.8              |           py36_0         105 KB  defaults
+    regex-2018.01.10           |py36hfa6e2cd_1000         320 KB  fastai
+    nvidia-ml-py3-7.352.0      |             py_0          22 KB  fastai
+    packaging-19.0             |           py36_0          38 KB  defaults
+    spacy-2.0.18               |py36h6538335_1000        50.7 MB  fastai
+    ------------------------------------------------------------
+                                           Total:        51.5 MB
+
+The following NEW packages will be INSTALLED:
+
+    beautifulsoup4: 4.7.1-py36_1              defaults
+    nvidia-ml-py3:  7.352.0-py_0              fastai
+    packaging:      19.0-py36_0               defaults
+    soupsieve:      1.8-py36_0                defaults
+
+The following packages will be UPDATED:
+
+    fastai:         1.0.34-py_1               fastai   --> 1.0.52-1                     fastai
+    spacy:          2.0.16-py36hcce6980_0     defaults --> 2.0.18-py36h6538335_1000     fastai
+
+The following packages will be DOWNGRADED:
+
+    regex:          2018.08.29-py36hfa6e2cd_0 defaults --> 2018.01.10-py36hfa6e2cd_1000 fastai
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+beautifulsoup4-4.7.1 | 144 KB    | ############################################################################ | 100%
+fastai-1.0.52        | 165 KB    | ############################################################################ | 100%
+soupsieve-1.8        | 105 KB    | ############################################################################ | 100%
+regex-2018.01.10     | 320 KB    | ############################################################################ | 100%
+nvidia-ml-py3-7.352. | 22 KB     | ############################################################################ | 100%
+packaging-19.0       | 38 KB     | ############################################################################ | 100%
+spacy-2.0.18         | 50.7 MB   | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(flaskenv) D:\VSCODEProjects\FlaskRecognizerFull>
