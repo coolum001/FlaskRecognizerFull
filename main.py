@@ -105,7 +105,7 @@ def upload_file():
                 # end if
 
                 # report upload success to user, showing file name
-                flash('Loading .. ' + filename)
+                flash('Loading ... ' + filename)
                 flash('Saving to ' + app.config['UPLOAD_FOLDER'] + '...')
                 filename = file.filename
                 file.save(
@@ -123,16 +123,25 @@ def upload_file():
                     app.instance_path, app.config['UPLOAD_FOLDER'], filename
                 )
                 guesses = my_cnn.recognize(model_path, image_path)
+                flash('Processing complete ...')
+
+                # remove the file, having performed guess process
+                try:
+                    os.remove(image_path)
+                except OSError:
+                    pass
+                # end try
+                flash('File cleanup complete.')
 
                 # Display result to user
-
                 form = ResponseForm()
                 return render_template(
                     'ack_upload.html',
                     form=form,
                     filename=filename,
                     uploadcount=str(session['upload_count']),
-                    guesses=guesses )
+                    guesses=guesses,
+                )
             # end if
         # end if
     # end if
